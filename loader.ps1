@@ -17,7 +17,7 @@ try {
     
     # Create delegate and execute
     $delegate = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($ptr, [Func[]])
-    $delegate()
+    $delegate.Invoke()
     
     # Cleanup
     [System.Runtime.InteropServices.Marshal]::FreeHGlobal($ptr)

